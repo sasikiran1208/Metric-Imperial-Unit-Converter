@@ -37,6 +37,6 @@ This is a simple web application that converts metric units to imperial units an
 
 ## 📷 Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](Unit_converter.png)
 
 
