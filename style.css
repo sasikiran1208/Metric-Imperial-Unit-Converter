@@ -1,0 +1,44 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    display: overflow;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color:white;
+}
+
+.header{
+    border:1px solid white;
+    padding: 5px 50px 25px 50px;
+    font-size: 10px;
+    background-color: rgb(2, 11, 88);
+}
+
+#number{
+    font-weight: bold;
+    height: 80px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    border-radius: 5px;  
+    color:aliceblue;
+    box-shadow: 0 0 10px white;
+    background-color: black;
+    font-size: 50px;
+    border:none;
+}
+
+button{
+    padding:5px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border:none
+}
+
