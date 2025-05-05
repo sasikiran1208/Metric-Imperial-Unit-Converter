@@ -19,11 +19,11 @@ body{
 #number{
     font-weight: bold;
     height: 80px;
-    width: 120px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 120px;
+    margin-left: 145px;
     border-radius: 5px;  
     color:aliceblue;
     box-shadow: 0 0 10px white;
@@ -36,7 +36,7 @@ button{
     padding:5px;
     align-items: center;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 160px;
     margin-top: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     border-radius: 5px;
@@ -49,41 +49,32 @@ button{
     background-color: rgb(255, 255, 255);
 }
 
-.length-conversion{
+.length-conversion,
+.volume-conversion,
+.mass-conversion {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Stack heading and result vertically */
     align-items: center;
-    margin-top: 25px;
-    border: 1px solid white;  
-    background-color: rgb(228, 228, 228);
+    padding: 15px 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #e4e4e4;
+    border: 1px solid white;
     color: royalblue;
-    width: 50%; /* Reduce the width */
-    margin-left: auto;
-    margin-right: auto; /* Center the element */
+    font-size: 11px;
+
 }
 
-.volume-conversion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    border: 1px solid white;  
-    background-color: rgb(228, 228, 228);
-    color:royalblue;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.length-conversion p,
+.volume-conversion p,
+.mass-conversion p {
+    color: black;
+    font-size: 9px;
+    margin-top: 8px; /* Space between heading and result */
+    font-family: monospace;
+    white-space: pre-line; /* Support for multiline display */
+    text-align: flex-start; /* Align text to the left */
+    flex-direction: row;
 }
 
-.mass-conversion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    border: 1px solid white; 
-    background-color: rgb(228, 228, 228);
-    color:royalblue;
-     width: 50%; 
-    margin-left: auto;
-    margin-right: auto; 
-}
+

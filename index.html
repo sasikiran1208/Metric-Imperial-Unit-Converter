@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Metric/Imperial Unit Conversion</h1>
-            <input type="text" id="number" placeholder="0" required>
+            <input type="number" id="number" placeholder="0" required>
             <button id="convert">Convert</button>
         </div>
         <div class="conversion-options">
             <div class="length-conversion">
-                <h1>Length (Meter/Feet)</h1>
-                <p id="Length-result"></p>
+                <h1>Length        (Meter/Feet)</h1>
+                <p id="length-result"></p>
             </div>
             <div class="volume-conversion">
-                <h1>Volume (Liters/Gallons)</h1>
+                <h1>Volume (Liters/Gallons)</h1>            
                 <p id="volume-result"></p>
             </div>
             <div class="mass-conversion">
-                <h1>Mass (Kilograms/Gallons)</h1>
+                <h1>Mass (Kilograms/Pounds)</h1>
                 <p id="mass-result"></p>
             </div>
         </div>                
     </div>
-</body>
-</html>
